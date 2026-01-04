@@ -1,0 +1,50 @@
+body{
+  background:#0f172a;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.pricing{
+  display:flex;
+  gap:20px;
+}
+
+.card{
+  background:#020617;
+  color:white;
+  padding:20px;
+  border-radius:12px;
+  width:200px;
+  text-align:center;
+}
+
+.card ul{
+  list-style:none;
+  padding:0;
+}
+
+.card li{
+  margin:6px 0;
+}
+
+.price{
+  font-size:28px;
+  margin:10px 0;
+}
+
+button{
+  margin-top:10px;
+  padding:8px 16px;
+  border:none;
+  border-radius:20px;
+  background:#22c55e;
+  color:#022c22;
+  cursor:pointer;
+}
+
+.popular{
+  border:2px solid #22c55e;
+}
